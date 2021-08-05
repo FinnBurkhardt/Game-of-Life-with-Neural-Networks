@@ -17,3 +17,10 @@ The MPL architecture consists out of 2 Fully connected with 256 neurons. A Relu 
 ### 4. MLP residual
 The MPL architecture consists out of 2 Fully connected with 256 neurons. A Relu activation function in between and a Tanh activation function after the second layer were used.
 The output of the network is added to the previous state to get the next one.
+
+
+
+## Results
+
+
+![image](https://user-images.githubusercontent.com/72468505/128404168-fe40cad0-476a-435d-90b0-9abd93cea8a7.png)
