@@ -5,8 +5,10 @@ This Reposetory compares the performence of different neural network architectur
 ## Architectures
 
 ### 1. CNN
+The CNN Architecture consists out of 2 Layers with 8 and 1 feature maps, with a Relu activation function in between and a Sigmoid activation function after the second layer.
 
 ### 2. CNN residual
+The CNN Architecture consists out of 2 Layers with 8 and 1 feature maps.
 
 ### 3. MLP
 
