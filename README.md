@@ -20,12 +20,15 @@ The output of the network is added to the previous state to get the next one.
 
 ## Approache
 The size of one frame are 16x16 pixels where the value 1 represents a living cell and 0 represents a dead cell.
-For the trainingset 5000 series of 30 frames were used. For the validationset 500 series of 30 frames were used.
-
+For the training set 5000 series of 30 frames were used. For the validation set 500 series of 30 frames were used.
+The first state of each series was initialized with a 50% chance for each cell to be alive/dead.
 
 
 
 ## Results
 
-
+Comperison of Models during training.
+The loss for each model is the average over 10 full training runs.
 ![image](https://user-images.githubusercontent.com/72468505/128404168-fe40cad0-476a-435d-90b0-9abd93cea8a7.png)
+
+![Alt Text]![MLP](https://user-images.githubusercontent.com/72468505/130492091-3f117123-b17f-417e-b936-438cdeabc3b7.gif))
