@@ -12,11 +12,16 @@ The residual CNN architecture consists out of 2 Layers with 8 and 1 feature maps
 The output of the network is added to the previous state to get the next one.
 
 ### 3. MLP
-The MPL architecture consists out of 2 Fully connected with 256 neurons. A Relu activation function in between and a Sigmoid activation function after the second layer were used.
+The MPL architecture consists out of 2 fully connected with 256 neurons. A Relu activation function in between and a Sigmoid activation function after the second layer were used.
 
 ### 4. MLP residual
-The MPL architecture consists out of 2 Fully connected with 256 neurons. A Relu activation function in between and a Tanh activation function after the second layer were used.
+The MPL architecture consists out of 2 fully connected with 256 neurons. A Relu activation function in between and a Tanh activation function after the second layer were used.
 The output of the network is added to the previous state to get the next one.
+
+## Approache
+The size of one frame are 16x16 pixels where the value 1 represents a living cell and 0 represents a dead cell.
+For the trainingset 5000 series of 30 frames were used. For the validationset 500 series of 30 frames were used.
+
 
 
 
