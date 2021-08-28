@@ -32,16 +32,11 @@ Comperison of Models during training.
 The loss for each model is the average over 10 full training runs.
 ![image](https://user-images.githubusercontent.com/72468505/128404168-fe40cad0-476a-435d-90b0-9abd93cea8a7.png)
 
-
-
 ## CNN
 ![CNN](https://user-images.githubusercontent.com/72468505/130492201-b5c1079b-792c-43b7-925b-37bb8ea0dd49.gif)
 
-
 ## CNN_residual
 ![CNN_residual](https://user-images.githubusercontent.com/72468505/130492264-0aca39e9-ef76-42d8-ba02-139bb8667570.gif)
-
-
 
 ## MLP
 ![MLP](https://user-images.githubusercontent.com/72468505/130492091-3f117123-b17f-417e-b936-438cdeabc3b7.gif)
@@ -59,7 +54,8 @@ The loss for each model is the average over 10 full training runs.
 python3 createData.py
 ```
 3. Select wanted model in train.py
-4. Run train.py
+4. 
+5. Run train.py
 ```python
 python3 train.py
 ```
