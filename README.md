@@ -44,3 +44,7 @@ The loss for each model is the average over 10 full training runs.
 
 ## MLP
 ![MLP](https://user-images.githubusercontent.com/72468505/130492091-3f117123-b17f-417e-b936-438cdeabc3b7.gif)
+
+## MLP_residual
+![MLP_residual](https://user-images.githubusercontent.com/72468505/131228345-31090da1-84e4-4398-9f86-64e4894e0c38.gif)
+
