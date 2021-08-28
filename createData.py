@@ -22,6 +22,24 @@ def main():
 			E.calcNextState()
 			S=E.getState().astype(np.uint8)*255
 			np.save(DATADIR+FOLDER+str(i).zfill(3)+'.npy', S)
+
+
+
+
+	DATADIR = '/home/finn/Desktop/CGOL/data/train'
+
+	for j in tqdm(range(5000)):
+		E = Environement(16)
+		FOLDER = '/'+str(j).zfill(3)+'/'#create name of folder
+		#create folder if not already there
+		if not os.path.exists(DATADIR+FOLDER):
+			os.makedirs(DATADIR+FOLDER)
+
+		#calc 30 states and safe them as .npy
+		for i in tqdm(range(30)):
+			E.calcNextState()
+			S=E.getState().astype(np.uint8)*255
+			np.save(DATADIR+FOLDER+str(i).zfill(3)+'.npy', S)
 			
 
 if __name__ == "__main__":
