@@ -22,6 +22,7 @@ The output of the network is added to the previous state to get the next one.
 The size of one frame are 16x16 pixels where the value 1 represents a living cell and 0 represents a dead cell.
 For the training set 5000 series of 30 frames were used. For the validation set 500 series of 30 frames were used.
 The first state of each series was initialized with a 50% chance for each cell to be alive/dead.
+To evaluate the predictive power of the neural networks the mean squared error(MSE) between the next state and the predicted next state is calculated.
 
 
 
