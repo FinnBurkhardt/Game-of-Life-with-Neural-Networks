@@ -47,7 +47,7 @@ The loss for each model is the average over 10 full training runs.
 # Usage
 
 
-1. Install dependecies
+1. Install dependencies
 
 2. Create Data
 ```python
@@ -60,7 +60,7 @@ python3 createData.py
 python3 train.py
 ```
 
-# Dependecies
+# Dependencies
 1. python 3.6
 2. pytorch 1.8.0
 3. numpy
