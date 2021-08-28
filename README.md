@@ -1,6 +1,6 @@
 # Game-of-Life-with-Neural-Networks
-Conway's game of life is a cellular autometon, which produces complex behaviours from a few simple rules.
-This Reposetory compares the performence of different neural network architectures on the task of predicting the next state in Conway's game of life.
+Conway's game of life is a cellular automaton, which produces complex behaviors from a few simple rules.
+This Repository compares the performance of different neural network architectures on the task of predicting the next state in Conway's game of life.
 
 ## Architectures
 
@@ -28,7 +28,7 @@ To evaluate the predictive power of the neural networks the mean squared error(M
 
 ## Results
 
-Comperison of Models during training.
+Comparison of Models during training.
 The loss for each model is the average over 10 full training runs.
 ![image](https://user-images.githubusercontent.com/72468505/128404168-fe40cad0-476a-435d-90b0-9abd93cea8a7.png)
 
