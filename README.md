@@ -59,3 +59,9 @@ python3 createData.py
 ```python
 python3 train.py
 ```
+
+# Dependecies
+1. python 3.6
+2. pytorch 1.8.0
+3. numpy
+4. matplotlib
