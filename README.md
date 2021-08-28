@@ -53,7 +53,13 @@ The loss for each model is the average over 10 full training runs.
 
 
 1. Install dependecies
+
 2. Create Data
 ```python
 python3 createData.py
+```
+3. Select wanted model in train.py
+4. Run train.py
+```python
+python3 train.py
 ```
