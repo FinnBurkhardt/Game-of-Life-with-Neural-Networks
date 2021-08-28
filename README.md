@@ -49,3 +49,8 @@ The loss for each model is the average over 10 full training runs.
 ## MLP_residual
 ![MLP_residual](https://user-images.githubusercontent.com/72468505/131228345-31090da1-84e4-4398-9f86-64e4894e0c38.gif)
 
+# Usage
+
+
+1. install dependecies
+2. create Data
