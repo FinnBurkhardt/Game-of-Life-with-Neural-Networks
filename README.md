@@ -52,5 +52,8 @@ The loss for each model is the average over 10 full training runs.
 # Usage
 
 
-1. install dependecies
-2. create Data
+1. Install dependecies
+2. Create Data
+```python
+python3 createData.py
+```
