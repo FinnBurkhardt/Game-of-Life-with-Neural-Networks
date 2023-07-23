@@ -18,7 +18,7 @@ The MPL architecture consists out of 2 fully connected with 256 neurons. A Relu 
 The MPL architecture consists out of 2 fully connected with 256 neurons. A Relu activation function in between and a Tanh activation function after the second layer were used.
 The output of the network is added to the previous state to get the next one.
 
-## Approache
+## Approach
 The size of one frame are 16x16 pixels where the value 1 represents a living cell and 0 represents a dead cell.
 For the training set 5000 series of 30 frames were used. For the validation set 500 series of 30 frames were used.
 The first state of each series was initialized with a 50% chance for each cell to be alive/dead.
